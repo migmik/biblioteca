@@ -11,8 +11,10 @@ public class Main {
         libro1.disponible = true;
 
         libro1.prestar();
-
-        System.out.println(libro1.disponible);
+        libro1.estaDisponible();
+        libro1.devolver();
+        libro1.cambiarTitulo("El principito 2");
+        
     }
 
 }
